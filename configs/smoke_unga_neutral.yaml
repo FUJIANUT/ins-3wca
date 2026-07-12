@@ -1,0 +1,29 @@
+dataset: ../data/processed/unga_2020_2025_v5_neutral
+beta: "1/4"
+alpha: "3/4"
+missing_policy: neutral
+
+pair_selection:
+  strategy: top_conflict
+  count: 3
+
+runs:
+  - solver: greedy
+    target: AR
+    operators: [mod, del]
+  - solver: grid-dp
+    target: NR
+    operators: [mod]
+    max_states: 2000000
+    time_limit: 120
+  - solver: ilp
+    target: AR
+    operators: [mod, del]
+    time_limit: 120
+  - solver: ilp
+    target: NR
+    operators: [mod]
+    time_limit: 120
+
+output: ../results/smoke_unga_neutral
+

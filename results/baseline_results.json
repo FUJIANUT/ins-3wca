@@ -1,0 +1,3832 @@
+{
+ "unga": {
+  "thresholds": {
+   "beta": "13/174",
+   "alpha": "381/1106"
+  },
+  "aggregate": {
+   "csr": {
+    "AR_success": 1.0,
+    "AR_exact_match_when_reached": 1.0,
+    "NR_success": 1.0,
+    "NR_overshoot": 0.0,
+    "NR_exact_match_when_reached": 1.0
+   },
+   "liu": {
+    "AR_success": 1.0,
+    "AR_exact_match_when_reached": 0.0,
+    "NR_success": 1.0,
+    "NR_overshoot": 0.0,
+    "NR_exact_match_when_reached": 0.1053
+   },
+   "rand": {
+    "AR_success": 1.0,
+    "AR_exact_match_when_reached": 0.0,
+    "NR_success": 1.0,
+    "NR_overshoot": 0.0,
+    "NR_exact_match_when_reached": 0.0526
+   },
+   "cost_gap": {
+    "csr_mean_cost_ratio": 1.132,
+    "csr_max_cost_ratio": 1.224,
+    "zhai_mean_cost_ratio": 1.001,
+    "zhai_max_cost_ratio": 1.004
+   },
+   "fairness": {
+    "default_mean_imbalance": 1.0,
+    "balanced_mean_imbalance": 0.003,
+    "balanced_always_same_cardinality": true
+   },
+   "n_pairs": 38
+  },
+  "rows": [
+   {
+    "a": "LTU",
+    "b": "RWA",
+    "sample": "stratified",
+    "D0": 0.3444846292947559,
+    "m": 553,
+    "AR_opt": 172,
+    "AR_csr": {
+     "reached": true,
+     "card": 172
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 197
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 203
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 413.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 492.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 413.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "FRA",
+    "b": "PAK",
+    "sample": "stratified",
+    "D0": 0.3471138845553822,
+    "m": 641,
+    "AR_opt": 236,
+    "AR_csr": {
+     "reached": true,
+     "card": 236
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 259
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 260
+    },
+    "NR_opt": 2,
+    "NR_csr": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 3,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 3,
+     "overshoot": false
+    },
+    "ARcost_opt": 581.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 711.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 581.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "IRN",
+    "b": "MDA",
+    "sample": "stratified",
+    "D0": 0.3502454991816694,
+    "m": 611,
+    "AR_opt": 208,
+    "AR_csr": {
+     "reached": true,
+     "card": 208
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 232
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 235
+    },
+    "NR_opt": 4,
+    "NR_csr": {
+     "reached": true,
+     "card": 4,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 8,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 6,
+     "overshoot": false
+    },
+    "ARcost_opt": 506.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 610.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 506.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "AUS",
+    "b": "BRN",
+    "sample": "stratified",
+    "D0": 0.35307692307692307,
+    "m": 650,
+    "AR_opt": 206,
+    "AR_csr": {
+     "reached": true,
+     "card": 206
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 239
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 239
+    },
+    "NR_opt": 6,
+    "NR_csr": {
+     "reached": true,
+     "card": 6,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 7,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 7,
+     "overshoot": false
+    },
+    "ARcost_opt": 532.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 626.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 532.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "CZE",
+    "b": "QAT",
+    "sample": "stratified",
+    "D0": 0.35725308641975306,
+    "m": 648,
+    "AR_opt": 209,
+    "AR_csr": {
+     "reached": true,
+     "card": 209
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 236
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 242
+    },
+    "NR_opt": 9,
+    "NR_csr": {
+     "reached": true,
+     "card": 9,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 12,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 12,
+     "overshoot": false
+    },
+    "ARcost_opt": 525.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 614.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 527.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.004784688995215311,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "DMA",
+    "b": "FSM",
+    "sample": "stratified",
+    "D0": 0.36129032258064514,
+    "m": 155,
+    "AR_opt": 45,
+    "AR_csr": {
+     "reached": true,
+     "card": 45
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 54
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 55
+    },
+    "NR_opt": 3,
+    "NR_csr": {
+     "reached": true,
+     "card": 3,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 3,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 4,
+     "overshoot": false
+    },
+    "ARcost_opt": 137.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 144.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 137.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.022222222222222223,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "ERI",
+    "b": "POL",
+    "sample": "stratified",
+    "D0": 0.3656,
+    "m": 625,
+    "AR_opt": 202,
+    "AR_csr": {
+     "reached": true,
+     "card": 202
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 233
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 237
+    },
+    "NR_opt": 14,
+    "NR_csr": {
+     "reached": true,
+     "card": 14,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 19,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 22,
+     "overshoot": false
+    },
+    "ARcost_opt": 542.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 617.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 544.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "CUB",
+    "b": "SVN",
+    "sample": "stratified",
+    "D0": 0.37131782945736436,
+    "m": 645,
+    "AR_opt": 219,
+    "AR_csr": {
+     "reached": true,
+     "card": 219
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 252
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 252
+    },
+    "NR_opt": 18,
+    "NR_csr": {
+     "reached": true,
+     "card": 18,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 23,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 24,
+     "overshoot": false
+    },
+    "ARcost_opt": 574.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 659.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 574.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0045662100456621,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "HUN",
+    "b": "KHM",
+    "sample": "stratified",
+    "D0": 0.3767772511848341,
+    "m": 633,
+    "AR_opt": 211,
+    "AR_csr": {
+     "reached": true,
+     "card": 211
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 243
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 247
+    },
+    "NR_opt": 21,
+    "NR_csr": {
+     "reached": true,
+     "card": 21,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 26,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 28,
+     "overshoot": false
+    },
+    "ARcost_opt": 546.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 607.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 548.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.004739336492890996,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "BFA",
+    "b": "HUN",
+    "sample": "stratified",
+    "D0": 0.3822975517890772,
+    "m": 531,
+    "AR_opt": 169,
+    "AR_csr": {
+     "reached": true,
+     "card": 169
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 199
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 199
+    },
+    "NR_opt": 21,
+    "NR_csr": {
+     "reached": true,
+     "card": 21,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 27,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 27,
+     "overshoot": false
+    },
+    "ARcost_opt": 448.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 493.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 450.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.005917159763313609,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "BDI",
+    "b": "DEU",
+    "sample": "stratified",
+    "D0": 0.3893884892086331,
+    "m": 556,
+    "AR_opt": 196,
+    "AR_csr": {
+     "reached": true,
+     "card": 196
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 225
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 225
+    },
+    "NR_opt": 25,
+    "NR_csr": {
+     "reached": true,
+     "card": 25,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 32,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 36,
+     "overshoot": false
+    },
+    "ARcost_opt": 508.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 577.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 508.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "BDI",
+    "b": "EST",
+    "sample": "stratified",
+    "D0": 0.39568345323741005,
+    "m": 556,
+    "AR_opt": 201,
+    "AR_csr": {
+     "reached": true,
+     "card": 201
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 230
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 229
+    },
+    "NR_opt": 29,
+    "NR_csr": {
+     "reached": true,
+     "card": 29,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 36,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 41,
+     "overshoot": false
+    },
+    "ARcost_opt": 528.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 604.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 530.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.004975124378109453,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "BLR",
+    "b": "NRU",
+    "sample": "stratified",
+    "D0": 0.4045307443365696,
+    "m": 309,
+    "AR_opt": 120,
+    "AR_csr": {
+     "reached": true,
+     "card": 120
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 136
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 136
+    },
+    "NR_opt": 19,
+    "NR_csr": {
+     "reached": true,
+     "card": 19,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 28,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 25,
+     "overshoot": false
+    },
+    "ARcost_opt": 308.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 349.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 308.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "CAN",
+    "b": "TKM",
+    "sample": "stratified",
+    "D0": 0.41836734693877553,
+    "m": 441,
+    "AR_opt": 163,
+    "AR_csr": {
+     "reached": true,
+     "card": 163
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 186
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 186
+    },
+    "NR_opt": 33,
+    "NR_csr": {
+     "reached": true,
+     "card": 33,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 40,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 42,
+     "overshoot": false
+    },
+    "ARcost_opt": 430.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 483.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 430.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.006134969325153374,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "ERI",
+    "b": "FSM",
+    "sample": "stratified",
+    "D0": 0.4341004184100418,
+    "m": 478,
+    "AR_opt": 174,
+    "AR_csr": {
+     "reached": true,
+     "card": 174
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 204
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 204
+    },
+    "NR_opt": 43,
+    "NR_csr": {
+     "reached": true,
+     "card": 43,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 54,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 53,
+     "overshoot": false
+    },
+    "ARcost_opt": 497.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 523.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 499.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "HRV",
+    "b": "NRU",
+    "sample": "stratified",
+    "D0": 0.46601941747572817,
+    "m": 309,
+    "AR_opt": 132,
+    "AR_csr": {
+     "reached": true,
+     "card": 132
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 151
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 150
+    },
+    "NR_opt": 38,
+    "NR_csr": {
+     "reached": true,
+     "card": 38,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 49,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 46,
+     "overshoot": false
+    },
+    "ARcost_opt": 373.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 397.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 373.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "FSM",
+    "b": "IRN",
+    "sample": "stratified",
+    "D0": 0.535181236673774,
+    "m": 469,
+    "AR_opt": 236,
+    "AR_csr": {
+     "reached": true,
+     "card": 236
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 263
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 265
+    },
+    "NR_opt": 90,
+    "NR_csr": {
+     "reached": true,
+     "card": 90,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 108,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 111,
+     "overshoot": false
+    },
+    "ARcost_opt": 655.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 717.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 655.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "ISR",
+    "b": "QAT",
+    "sample": "stratified",
+    "D0": 0.7040472175379426,
+    "m": 593,
+    "AR_opt": 379,
+    "AR_csr": {
+     "reached": true,
+     "card": 379
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 418
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 417
+    },
+    "NR_opt": 214,
+    "NR_csr": {
+     "reached": true,
+     "card": 214,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 238,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 237,
+     "overshoot": false
+    },
+    "ARcost_opt": 1083.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 1122.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 1083.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.002638522427440633,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "ISR",
+    "b": "ZWE",
+    "sample": "stratified",
+    "D0": 0.7403169014084507,
+    "m": 568,
+    "AR_opt": 385,
+    "AR_csr": {
+     "reached": true,
+     "card": 385
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 424
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 422
+    },
+    "NR_opt": 225,
+    "NR_csr": {
+     "reached": true,
+     "card": 225,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 249,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 252,
+     "overshoot": false
+    },
+    "ARcost_opt": 1105.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 1138.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 1107.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0025974025974025974,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "TKM",
+    "b": "USA",
+    "sample": "stratified",
+    "D0": 0.8514739229024944,
+    "m": 441,
+    "AR_opt": 343,
+    "AR_csr": {
+     "reached": true,
+     "card": 343
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 361
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 361
+    },
+    "NR_opt": 224,
+    "NR_csr": {
+     "reached": true,
+     "card": 224,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 240,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 235,
+     "overshoot": false
+    },
+    "ARcost_opt": 981.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 1021.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 983.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0029154518950437317,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "GBR",
+    "b": "MDG",
+    "sample": "random",
+    "D0": 0.4583333333333333,
+    "m": 432,
+    "AR_opt": 199,
+    "AR_csr": {
+     "reached": true,
+     "card": 199
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 223
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 223
+    },
+    "NR_opt": 50,
+    "NR_csr": {
+     "reached": true,
+     "card": 50,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 71,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 64,
+     "overshoot": false
+    },
+    "ARcost_opt": 504.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 582.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 504.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.005025125628140704,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "EST",
+    "b": "IRN",
+    "sample": "random",
+    "D0": 0.42520325203252035,
+    "m": 615,
+    "AR_opt": 245,
+    "AR_csr": {
+     "reached": true,
+     "card": 245
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 272
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 279
+    },
+    "NR_opt": 50,
+    "NR_csr": {
+     "reached": true,
+     "card": 50,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 62,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 68,
+     "overshoot": false
+    },
+    "ARcost_opt": 616.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 709.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 616.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.004081632653061225,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "NGA",
+    "b": "ROU",
+    "sample": "random",
+    "D0": 0.348458904109589,
+    "m": 584,
+    "AR_opt": 192,
+    "AR_csr": {
+     "reached": true,
+     "card": 192
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 218
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 217
+    },
+    "NR_opt": 3,
+    "NR_csr": {
+     "reached": true,
+     "card": 3,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 3,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 4,
+     "overshoot": false
+    },
+    "ARcost_opt": 478.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 572.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 478.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "CUB",
+    "b": "LTU",
+    "sample": "random",
+    "D0": 0.4083850931677019,
+    "m": 644,
+    "AR_opt": 247,
+    "AR_csr": {
+     "reached": true,
+     "card": 247
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 278
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 278
+    },
+    "NR_opt": 42,
+    "NR_csr": {
+     "reached": true,
+     "card": 42,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 53,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 54,
+     "overshoot": false
+    },
+    "ARcost_opt": 629.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 734.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 631.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.004048582995951417,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "COM",
+    "b": "HUN",
+    "sample": "random",
+    "D0": 0.3925339366515837,
+    "m": 442,
+    "AR_opt": 149,
+    "AR_csr": {
+     "reached": true,
+     "card": 149
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 174
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 176
+    },
+    "NR_opt": 22,
+    "NR_csr": {
+     "reached": true,
+     "card": 22,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 27,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 27,
+     "overshoot": false
+    },
+    "ARcost_opt": 413.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 459.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 413.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.006711409395973154,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "BOL",
+    "b": "LTU",
+    "sample": "random",
+    "D0": 0.3857442348008386,
+    "m": 477,
+    "AR_opt": 172,
+    "AR_csr": {
+     "reached": true,
+     "card": 172
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 195
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 194
+    },
+    "NR_opt": 20,
+    "NR_csr": {
+     "reached": true,
+     "card": 20,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 25,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 28,
+     "overshoot": false
+    },
+    "ARcost_opt": 453.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 526.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 453.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "LVA",
+    "b": "VEN",
+    "sample": "random",
+    "D0": 0.41388888888888886,
+    "m": 180,
+    "AR_opt": 69,
+    "AR_csr": {
+     "reached": true,
+     "card": 69
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 80
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 78
+    },
+    "NR_opt": 13,
+    "NR_csr": {
+     "reached": true,
+     "card": 13,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 16,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 16,
+     "overshoot": false
+    },
+    "ARcost_opt": 191.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 217.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 191.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.014492753623188406,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "ITA",
+    "b": "NIC",
+    "sample": "random",
+    "D0": 0.4178743961352657,
+    "m": 621,
+    "AR_opt": 235,
+    "AR_csr": {
+     "reached": true,
+     "card": 235
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 267
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 270
+    },
+    "NR_opt": 46,
+    "NR_csr": {
+     "reached": true,
+     "card": 46,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 61,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 57,
+     "overshoot": false
+    },
+    "ARcost_opt": 625.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 693.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 625.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.00425531914893617,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "GBR",
+    "b": "SYR",
+    "sample": "random",
+    "D0": 0.5403846153846154,
+    "m": 520,
+    "AR_opt": 264,
+    "AR_csr": {
+     "reached": true,
+     "card": 264
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 289
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 294
+    },
+    "NR_opt": 102,
+    "NR_csr": {
+     "reached": true,
+     "card": 102,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 123,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 125,
+     "overshoot": false
+    },
+    "ARcost_opt": 717.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 794.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 717.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "ISR",
+    "b": "LTU",
+    "sample": "random",
+    "D0": 0.398989898989899,
+    "m": 594,
+    "AR_opt": 228,
+    "AR_csr": {
+     "reached": true,
+     "card": 228
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 263
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 256
+    },
+    "NR_opt": 33,
+    "NR_csr": {
+     "reached": true,
+     "card": 33,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 45,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 43,
+     "overshoot": false
+    },
+    "ARcost_opt": 586.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 681.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 586.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "CMR",
+    "b": "LVA",
+    "sample": "random",
+    "D0": 0.35921501706484643,
+    "m": 586,
+    "AR_opt": 219,
+    "AR_csr": {
+     "reached": true,
+     "card": 219
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 242
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 240
+    },
+    "NR_opt": 9,
+    "NR_csr": {
+     "reached": true,
+     "card": 9,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 13,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 12,
+     "overshoot": false
+    },
+    "ARcost_opt": 570.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 671.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 570.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0045662100456621,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "BEL",
+    "b": "SYR",
+    "sample": "random",
+    "D0": 0.4510556621880998,
+    "m": 521,
+    "AR_opt": 227,
+    "AR_csr": {
+     "reached": true,
+     "card": 227
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 249
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 257
+    },
+    "NR_opt": 56,
+    "NR_csr": {
+     "reached": true,
+     "card": 56,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 74,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 75,
+     "overshoot": false
+    },
+    "ARcost_opt": 585.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 668.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 585.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.004405286343612335,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "ARE",
+    "b": "FSM",
+    "sample": "random",
+    "D0": 0.4036885245901639,
+    "m": 488,
+    "AR_opt": 175,
+    "AR_csr": {
+     "reached": true,
+     "card": 175
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 202
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 201
+    },
+    "NR_opt": 29,
+    "NR_csr": {
+     "reached": true,
+     "card": 29,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 36,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 36,
+     "overshoot": false
+    },
+    "ARcost_opt": 471.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 515.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 473.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.005714285714285714,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "CAN",
+    "b": "UZB",
+    "sample": "random",
+    "D0": 0.4013722126929674,
+    "m": 583,
+    "AR_opt": 219,
+    "AR_csr": {
+     "reached": true,
+     "card": 219
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 247
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 249
+    },
+    "NR_opt": 34,
+    "NR_csr": {
+     "reached": true,
+     "card": 34,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 44,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 43,
+     "overshoot": false
+    },
+    "ARcost_opt": 580.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 667.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 582.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0045662100456621,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "DZA",
+    "b": "HUN",
+    "sample": "random",
+    "D0": 0.4015384615384615,
+    "m": 650,
+    "AR_opt": 247,
+    "AR_csr": {
+     "reached": true,
+     "card": 247
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 280
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 281
+    },
+    "NR_opt": 38,
+    "NR_csr": {
+     "reached": true,
+     "card": 38,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 50,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 49,
+     "overshoot": false
+    },
+    "ARcost_opt": 626.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 728.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 626.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.004048582995951417,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "NLD",
+    "b": "RUS",
+    "sample": "random",
+    "D0": 0.3955108359133127,
+    "m": 646,
+    "AR_opt": 236,
+    "AR_csr": {
+     "reached": true,
+     "card": 236
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 266
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 274
+    },
+    "NR_opt": 33,
+    "NR_csr": {
+     "reached": true,
+     "card": 33,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 44,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 50,
+     "overshoot": false
+    },
+    "ARcost_opt": 645.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 734.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 647.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "LTU",
+    "b": "SDN",
+    "sample": "random",
+    "D0": 0.38707037643207853,
+    "m": 611,
+    "AR_opt": 218,
+    "AR_csr": {
+     "reached": true,
+     "card": 218
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 249
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 252
+    },
+    "NR_opt": 27,
+    "NR_csr": {
+     "reached": true,
+     "card": 27,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 35,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 32,
+     "overshoot": false
+    },
+    "ARcost_opt": 568.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 662.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 570.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "EST",
+    "b": "OMN",
+    "sample": "random",
+    "D0": 0.3449612403100775,
+    "m": 645,
+    "AR_opt": 202,
+    "AR_csr": {
+     "reached": true,
+     "card": 202
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 231
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 236
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 520.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 608.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 522.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   }
+  ]
+ },
+ "uci": {
+  "thresholds": {
+   "beta": "1/3",
+   "alpha": "5/6"
+  },
+  "aggregate": {
+   "csr": {
+    "AR_success": 1.0,
+    "AR_exact_match_when_reached": 1.0,
+    "NR_success": 0.975,
+    "NR_overshoot": 0.025,
+    "NR_exact_match_when_reached": 1.0
+   },
+   "liu": {
+    "AR_success": 1.0,
+    "AR_exact_match_when_reached": 1.0,
+    "NR_success": 0.975,
+    "NR_overshoot": 0.025,
+    "NR_exact_match_when_reached": 1.0
+   },
+   "rand": {
+    "AR_success": 1.0,
+    "AR_exact_match_when_reached": 1.0,
+    "NR_success": 0.975,
+    "NR_overshoot": 0.025,
+    "NR_exact_match_when_reached": 1.0
+   },
+   "cost_gap": {
+    "csr_mean_cost_ratio": 1.486,
+    "csr_max_cost_ratio": 1.923,
+    "zhai_mean_cost_ratio": 1.0,
+    "zhai_max_cost_ratio": 1.0
+   },
+   "fairness": {
+    "default_mean_imbalance": 1.0,
+    "balanced_mean_imbalance": 0.069,
+    "balanced_always_same_cardinality": true
+   },
+   "n_pairs": 40
+  },
+  "rows": [
+   {
+    "a": "rep_0002",
+    "b": "rep_0131",
+    "sample": "stratified",
+    "D0": 0.8333333333333334,
+    "m": 12,
+    "AR_opt": 6,
+    "AR_csr": {
+     "reached": true,
+     "card": 6
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 6
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 6
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 10.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 15.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 10.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0046",
+    "b": "rep_0052",
+    "sample": "stratified",
+    "D0": 0.8461538461538461,
+    "m": 13,
+    "AR_opt": 7,
+    "AR_csr": {
+     "reached": true,
+     "card": 7
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 7
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 7
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 13.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 25.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 13.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.14285714285714285,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0016",
+    "b": "rep_0040",
+    "sample": "stratified",
+    "D0": 0.8571428571428571,
+    "m": 14,
+    "AR_opt": 8,
+    "AR_csr": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 8
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 15.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 25.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 15.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0064",
+    "b": "rep_0192",
+    "sample": "stratified",
+    "D0": 0.8571428571428571,
+    "m": 14,
+    "AR_opt": 8,
+    "AR_csr": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 8
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 17.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 26.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 17.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0164",
+    "b": "rep_0199",
+    "sample": "stratified",
+    "D0": 0.8571428571428571,
+    "m": 14,
+    "AR_opt": 8,
+    "AR_csr": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 8
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 18.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 30.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 18.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0008",
+    "b": "rep_0246",
+    "sample": "stratified",
+    "D0": 0.8666666666666667,
+    "m": 15,
+    "AR_opt": 8,
+    "AR_csr": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 8
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 15.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 26.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 15.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0060",
+    "b": "rep_0329",
+    "sample": "stratified",
+    "D0": 0.8666666666666667,
+    "m": 15,
+    "AR_opt": 8,
+    "AR_csr": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 8
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 15.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 27.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 15.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0133",
+    "b": "rep_0320",
+    "sample": "stratified",
+    "D0": 0.8666666666666667,
+    "m": 15,
+    "AR_opt": 8,
+    "AR_csr": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 8
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 18.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 27.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 18.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0237",
+    "b": "rep_0283",
+    "sample": "stratified",
+    "D0": 0.8666666666666667,
+    "m": 15,
+    "AR_opt": 8,
+    "AR_csr": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 8
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 18.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 29.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 18.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0033",
+    "b": "rep_0257",
+    "sample": "stratified",
+    "D0": 0.875,
+    "m": 16,
+    "AR_opt": 9,
+    "AR_csr": {
+     "reached": true,
+     "card": 9
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 9
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 9
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 21.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 28.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 21.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.1111111111111111,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0117",
+    "b": "rep_0307",
+    "sample": "stratified",
+    "D0": 0.875,
+    "m": 16,
+    "AR_opt": 9,
+    "AR_csr": {
+     "reached": true,
+     "card": 9
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 9
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 9
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 16.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 28.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 16.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.1111111111111111,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0331",
+    "b": "rep_0334",
+    "sample": "stratified",
+    "D0": 0.875,
+    "m": 16,
+    "AR_opt": 9,
+    "AR_csr": {
+     "reached": true,
+     "card": 9
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 9
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 9
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 21.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 31.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 21.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.1111111111111111,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0171",
+    "b": "rep_0435",
+    "sample": "stratified",
+    "D0": 0.9166666666666666,
+    "m": 12,
+    "AR_opt": 7,
+    "AR_csr": {
+     "reached": true,
+     "card": 7
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 7
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 7
+    },
+    "NR_opt": 2,
+    "NR_csr": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "ARcost_opt": 14.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 25.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 14.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.14285714285714285,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0023",
+    "b": "rep_0331",
+    "sample": "stratified",
+    "D0": 0.9285714285714286,
+    "m": 14,
+    "AR_opt": 9,
+    "AR_csr": {
+     "reached": true,
+     "card": 9
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 9
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 9
+    },
+    "NR_opt": 2,
+    "NR_csr": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "ARcost_opt": 18.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 22.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 18.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.1111111111111111,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0188",
+    "b": "rep_0360",
+    "sample": "stratified",
+    "D0": 0.9285714285714286,
+    "m": 14,
+    "AR_opt": 9,
+    "AR_csr": {
+     "reached": true,
+     "card": 9
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 9
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 9
+    },
+    "NR_opt": 2,
+    "NR_csr": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "ARcost_opt": 19.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 30.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 19.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.1111111111111111,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0060",
+    "b": "rep_0092",
+    "sample": "stratified",
+    "D0": 0.9333333333333333,
+    "m": 15,
+    "AR_opt": 9,
+    "AR_csr": {
+     "reached": true,
+     "card": 9
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 9
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 9
+    },
+    "NR_opt": 2,
+    "NR_csr": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "ARcost_opt": 18.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 29.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 18.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.1111111111111111,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0027",
+    "b": "rep_0280",
+    "sample": "stratified",
+    "D0": 0.9375,
+    "m": 16,
+    "AR_opt": 10,
+    "AR_csr": {
+     "reached": true,
+     "card": 10
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 10
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 10
+    },
+    "NR_opt": 2,
+    "NR_csr": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "ARcost_opt": 20.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 32.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 20.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0026",
+    "b": "rep_0325",
+    "sample": "stratified",
+    "D0": 1.0,
+    "m": 16,
+    "AR_opt": 11,
+    "AR_csr": {
+     "reached": true,
+     "card": 11
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 11
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 11
+    },
+    "NR_opt": 3,
+    "NR_csr": {
+     "reached": true,
+     "card": 3,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 3,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 3,
+     "overshoot": false
+    },
+    "ARcost_opt": 23.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 34.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 23.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.09090909090909091,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0121",
+    "b": "rep_0200",
+    "sample": "stratified",
+    "D0": 1.0,
+    "m": 11,
+    "AR_opt": 8,
+    "AR_csr": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 8
+    },
+    "NR_opt": 2,
+    "NR_csr": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "ARcost_opt": 17.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 20.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 17.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0401",
+    "b": "rep_0430",
+    "sample": "stratified",
+    "D0": 1.0,
+    "m": 9,
+    "AR_opt": 6,
+    "AR_csr": {
+     "reached": true,
+     "card": 6
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 6
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 6
+    },
+    "NR_opt": 2,
+    "NR_csr": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "ARcost_opt": 12.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 17.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 12.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0254",
+    "b": "rep_0263",
+    "sample": "random",
+    "D0": 0.8666666666666667,
+    "m": 15,
+    "AR_opt": 8,
+    "AR_csr": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 8
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 17.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 28.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 17.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0175",
+    "b": "rep_0267",
+    "sample": "random",
+    "D0": 0.8571428571428571,
+    "m": 14,
+    "AR_opt": 8,
+    "AR_csr": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 8
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 15.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 18.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 15.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0108",
+    "b": "rep_0368",
+    "sample": "random",
+    "D0": 1.0,
+    "m": 2,
+    "AR_opt": 2,
+    "AR_csr": {
+     "reached": true,
+     "card": 2
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 2
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 2
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 4.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 4.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 4.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0131",
+    "b": "rep_0434",
+    "sample": "random",
+    "D0": 0.875,
+    "m": 8,
+    "AR_opt": 5,
+    "AR_csr": {
+     "reached": true,
+     "card": 5
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 5
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 5
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 12.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 16.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 12.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.2,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0097",
+    "b": "rep_0372",
+    "sample": "random",
+    "D0": 0.9230769230769231,
+    "m": 13,
+    "AR_opt": 8,
+    "AR_csr": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 8
+    },
+    "NR_opt": 2,
+    "NR_csr": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "ARcost_opt": 16.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 26.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 16.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0050",
+    "b": "rep_0176",
+    "sample": "random",
+    "D0": 0.8666666666666667,
+    "m": 15,
+    "AR_opt": 8,
+    "AR_csr": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 8
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 17.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 21.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 17.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0273",
+    "b": "rep_0305",
+    "sample": "random",
+    "D0": 0.8666666666666667,
+    "m": 15,
+    "AR_opt": 8,
+    "AR_csr": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 8
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 17.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 27.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 17.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0091",
+    "b": "rep_0254",
+    "sample": "random",
+    "D0": 0.875,
+    "m": 16,
+    "AR_opt": 9,
+    "AR_csr": {
+     "reached": true,
+     "card": 9
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 9
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 9
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 21.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 31.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 21.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.1111111111111111,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0031",
+    "b": "rep_0262",
+    "sample": "random",
+    "D0": 0.9,
+    "m": 10,
+    "AR_opt": 6,
+    "AR_csr": {
+     "reached": true,
+     "card": 6
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 6
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 6
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 14.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 19.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 14.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0011",
+    "b": "rep_0302",
+    "sample": "random",
+    "D0": 0.8461538461538461,
+    "m": 13,
+    "AR_opt": 7,
+    "AR_csr": {
+     "reached": true,
+     "card": 7
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 7
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 7
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 17.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 20.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 17.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.14285714285714285,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0073",
+    "b": "rep_0358",
+    "sample": "random",
+    "D0": 0.9333333333333333,
+    "m": 15,
+    "AR_opt": 9,
+    "AR_csr": {
+     "reached": true,
+     "card": 9
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 9
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 9
+    },
+    "NR_opt": 2,
+    "NR_csr": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "ARcost_opt": 18.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 29.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 18.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.1111111111111111,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0151",
+    "b": "rep_0178",
+    "sample": "random",
+    "D0": 0.8666666666666667,
+    "m": 15,
+    "AR_opt": 8,
+    "AR_csr": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 8
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 15.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 27.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 15.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0178",
+    "b": "rep_0358",
+    "sample": "random",
+    "D0": 0.8666666666666667,
+    "m": 15,
+    "AR_opt": 8,
+    "AR_csr": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 8
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 18.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 32.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 18.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0077",
+    "b": "rep_0175",
+    "sample": "random",
+    "D0": 0.8571428571428571,
+    "m": 14,
+    "AR_opt": 8,
+    "AR_csr": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 8
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 15.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 17.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 15.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0231",
+    "b": "rep_0264",
+    "sample": "random",
+    "D0": 0.8666666666666667,
+    "m": 15,
+    "AR_opt": 8,
+    "AR_csr": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 8
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 17.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 27.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 17.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0112",
+    "b": "rep_0184",
+    "sample": "random",
+    "D0": 1.0,
+    "m": 1,
+    "AR_opt": 1,
+    "AR_csr": {
+     "reached": true,
+     "card": 1
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 1
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 1
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": false,
+     "card": 1,
+     "overshoot": true
+    },
+    "NR_liu": {
+     "reached": false,
+     "card": 1,
+     "overshoot": true
+    },
+    "NR_rand": {
+     "reached": false,
+     "card": 1,
+     "overshoot": true
+    },
+    "ARcost_opt": 1.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 1.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 1.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 1.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0164",
+    "b": "rep_0219",
+    "sample": "random",
+    "D0": 0.8461538461538461,
+    "m": 13,
+    "AR_opt": 7,
+    "AR_csr": {
+     "reached": true,
+     "card": 7
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 7
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 7
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 17.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 21.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 17.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.14285714285714285,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0039",
+    "b": "rep_0171",
+    "sample": "random",
+    "D0": 0.9230769230769231,
+    "m": 13,
+    "AR_opt": 8,
+    "AR_csr": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 8
+    },
+    "NR_opt": 2,
+    "NR_csr": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "ARcost_opt": 18.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 30.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 18.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0307",
+    "b": "rep_0332",
+    "sample": "random",
+    "D0": 0.8571428571428571,
+    "m": 14,
+    "AR_opt": 8,
+    "AR_csr": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 8
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 8
+    },
+    "NR_opt": 1,
+    "NR_csr": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 1,
+     "overshoot": false
+    },
+    "ARcost_opt": 16.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 18.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 16.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   },
+   {
+    "a": "rep_0020",
+    "b": "rep_0134",
+    "sample": "random",
+    "D0": 0.9375,
+    "m": 16,
+    "AR_opt": 10,
+    "AR_csr": {
+     "reached": true,
+     "card": 10
+    },
+    "AR_liu": {
+     "reached": true,
+     "card": 10
+    },
+    "AR_rand": {
+     "reached": true,
+     "card": 10
+    },
+    "NR_opt": 2,
+    "NR_csr": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_liu": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "NR_rand": {
+     "reached": true,
+     "card": 2,
+     "overshoot": false
+    },
+    "ARcost_opt": 22.0,
+    "ARcost_csr": {
+     "reached": true,
+     "cost": 33.0
+    },
+    "ARcost_zhai": {
+     "reached": true,
+     "cost": 22.0
+    },
+    "fair_default_imbalance": 1.0,
+    "fair_balanced_imbalance": 0.0,
+    "fair_balanced_reached": true
+   }
+  ]
+ }
+}

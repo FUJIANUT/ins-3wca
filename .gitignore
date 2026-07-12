@@ -1,0 +1,26 @@
+# Vote data — licensed and/or large; obtain from official sources (see README.md).
+# Never commit the UN General Assembly CSV or any processed vote matrix.
+# Anchored to repo root so it does NOT match the src/mcie/data/ loader package.
+/data/
+
+# Large per-record result dumps (the small summary results/*.json ARE tracked).
+results/*.jsonl
+results/*.csv
+
+# Python / tooling
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+*.swp

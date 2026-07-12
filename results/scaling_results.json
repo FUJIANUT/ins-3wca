@@ -1,0 +1,153 @@
+{
+ "S1_m": [
+  {
+   "m": 64,
+   "greedy_ms": 0.675,
+   "griddp_ms": 5.573,
+   "ilp_ar_ms": 1.891
+  },
+  {
+   "m": 128,
+   "greedy_ms": 1.401,
+   "griddp_ms": 29.338,
+   "ilp_ar_ms": 2.503
+  },
+  {
+   "m": 256,
+   "greedy_ms": 2.525,
+   "griddp_ms": 90.423,
+   "ilp_ar_ms": 4.896
+  },
+  {
+   "m": 512,
+   "greedy_ms": 5.077,
+   "griddp_ms": 401.773,
+   "ilp_ar_ms": 11.076
+  },
+  {
+   "m": 1024,
+   "greedy_ms": 10.539,
+   "griddp_ms": 1694.347,
+   "ilp_ar_ms": 31.346
+  },
+  {
+   "m": 2048,
+   "greedy_ms": 21.412,
+   "griddp_ms": 7309.091,
+   "ilp_ar_ms": 94.181
+  },
+  {
+   "m": 4096,
+   "greedy_ms": 51.368,
+   "ilp_ar_ms": 322.004
+  }
+ ],
+ "S2_weight_H": [
+  {
+   "w_range": 1,
+   "H": 256,
+   "greedy_ms": 2.579,
+   "griddp_ms": 92.721,
+   "griddp_status": "OPTIMAL"
+  },
+  {
+   "w_range": 4,
+   "H": 634,
+   "greedy_ms": 2.847,
+   "griddp_ms": 253.261,
+   "griddp_status": "OPTIMAL"
+  },
+  {
+   "w_range": 16,
+   "H": 2144,
+   "greedy_ms": 2.854,
+   "griddp_ms": 938.656,
+   "griddp_status": "OPTIMAL"
+  },
+  {
+   "w_range": 64,
+   "H": 8169,
+   "greedy_ms": 2.938,
+   "griddp_ms": 3756.099,
+   "griddp_status": "OPTIMAL"
+  },
+  {
+   "w_range": 256,
+   "H": 32280,
+   "greedy_ms": 2.985,
+   "griddp_ms": 15648.394,
+   "griddp_status": "OPTIMAL"
+  }
+ ],
+ "S3_menu": [
+  {
+   "operators": "mod",
+   "griddp_ms": 478.558,
+   "status": "OPTIMAL"
+  },
+  {
+   "operators": "mod+del",
+   "griddp_ms": 259401.413,
+   "status": "OPTIMAL"
+  }
+ ],
+ "S4_agents_safe": [
+  {
+   "n": 20,
+   "bystanders": 189,
+   "n_constraints": 421,
+   "n_variables": 160,
+   "status": "OPTIMAL",
+   "wall_s": 0.02
+  },
+  {
+   "n": 40,
+   "bystanders": 779,
+   "n_constraints": 1600,
+   "n_variables": 160,
+   "status": "OPTIMAL",
+   "wall_s": 0.05
+  },
+  {
+   "n": 80,
+   "bystanders": 3159,
+   "n_constraints": 6361,
+   "n_variables": 160,
+   "status": "OPTIMAL",
+   "wall_s": 0.164
+  },
+  {
+   "n": 120,
+   "bystanders": 7139,
+   "n_constraints": 14316,
+   "n_variables": 160,
+   "status": "OPTIMAL",
+   "wall_s": 0.343
+  },
+  {
+   "n": 160,
+   "bystanders": 12719,
+   "n_constraints": 25474,
+   "n_variables": 160,
+   "status": "OPTIMAL",
+   "wall_s": 0.591
+  },
+  {
+   "n": 200,
+   "bystanders": 19899,
+   "n_constraints": 39830,
+   "n_variables": 160,
+   "status": "OPTIMAL",
+   "wall_s": 0.9
+  }
+ ],
+ "loglog_slopes": {
+  "greedy_in_m": 1.024,
+  "griddp_in_m": 2.043,
+  "ilp_ar_in_m": 1.264,
+  "griddp_in_H": 1.058,
+  "greedy_in_H": 0.025,
+  "safe_constraints_in_n": 1.979,
+  "safe_time_in_n": 1.671
+ }
+}

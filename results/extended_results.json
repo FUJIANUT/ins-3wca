@@ -1,0 +1,133 @@
+{
+ "E1_genetic": {
+  "synthetic_sweep": [
+   {
+    "m": 8,
+    "exact": 6,
+    "ga_best": 6,
+    "reached": true,
+    "ratio": 1.0
+   },
+   {
+    "m": 16,
+    "exact": 12,
+    "ga_best": 12,
+    "reached": true,
+    "ratio": 1.0
+   },
+   {
+    "m": 32,
+    "exact": 24,
+    "ga_best": 24,
+    "reached": true,
+    "ratio": 1.0
+   },
+   {
+    "m": 64,
+    "exact": 48,
+    "ga_best": 48,
+    "reached": true,
+    "ratio": 1.0
+   },
+   {
+    "m": 128,
+    "exact": 96,
+    "ga_best": 96,
+    "reached": true,
+    "ratio": 1.0
+   },
+   {
+    "m": 256,
+    "exact": 192,
+    "ga_best": 194,
+    "reached": true,
+    "ratio": 1.01
+   }
+  ],
+  "uci_real": {
+   "n": 15,
+   "reached": 15,
+   "matched_exact": 15,
+   "beta": "1/3",
+   "alpha": "5/6"
+  }
+ },
+ "E2_side_effect_multiplicity": {
+  "unga": {
+   "n_pairs": 146,
+   "side_effect_mean": 105.0,
+   "side_effect_median": 105.5,
+   "side_effect_max": 191,
+   "side_effect_frac_mean": 0.2749,
+   "zero_side_effect_rate": 0.0,
+   "necessary_issue_n_pairs": 146,
+   "necessary_issue_frac_mean": 0.0,
+   "nonunique_optimum_rate": 0.9726
+  },
+  "uci": {
+   "n_pairs": 149,
+   "side_effect_mean": 291.56,
+   "side_effect_median": 300,
+   "side_effect_max": 411,
+   "side_effect_frac_mean": 0.3376,
+   "zero_side_effect_rate": 0.0,
+   "necessary_issue_n_pairs": 130,
+   "necessary_issue_frac_mean": 0.3077,
+   "nonunique_optimum_rate": 0.9732
+  }
+ },
+ "E3_accuracy": {
+  "small_bruteforce": [
+   {
+    "m": 4,
+    "trials": 60,
+    "AR_match_bruteforce": 60,
+    "NR_match_bruteforce": 60
+   },
+   {
+    "m": 6,
+    "trials": 60,
+    "AR_match_bruteforce": 60,
+    "NR_match_bruteforce": 60
+   },
+   {
+    "m": 8,
+    "trials": 60,
+    "AR_match_bruteforce": 60,
+    "NR_match_bruteforce": 60
+   },
+   {
+    "m": 10,
+    "trials": 60,
+    "AR_match_bruteforce": 60,
+    "NR_match_bruteforce": "n/a"
+   }
+  ],
+  "medium_ilp": [
+   {
+    "m": 20,
+    "trials": 20,
+    "AR_match_ilp": 20,
+    "NR_match_ilp": 20
+   },
+   {
+    "m": 50,
+    "trials": 20,
+    "AR_match_ilp": 20,
+    "NR_match_ilp": 20
+   },
+   {
+    "m": 100,
+    "trials": 20,
+    "AR_match_ilp": 20,
+    "NR_match_ilp": 20
+   },
+   {
+    "m": 200,
+    "trials": 20,
+    "AR_match_ilp": 20,
+    "NR_match_ilp": 20
+   }
+  ]
+ }
+}

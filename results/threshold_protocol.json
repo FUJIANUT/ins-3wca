@@ -1,0 +1,198 @@
+{
+ "unga_2020_2025_v5_mask": {
+  "n_pairs_used": 18528,
+  "degree_stats": {
+   "mean": 0.18,
+   "median": 0.1441,
+   "p10": 0.0335,
+   "p90": 0.3445,
+   "max": 0.8515
+  },
+  "quantile_p33_p90": {
+   "beta": "13/174",
+   "alpha": "381/1106",
+   "beta_float": 0.07471264367816093,
+   "alpha_float": 0.3444846292947559,
+   "method": "quantile",
+   "n_pairs": 18528,
+   "region_counts": {
+    "AR": 6176,
+    "NR": 10499,
+    "CR": 1853
+   },
+   "region_fractions": {
+    "AR": 0.3333333333333333,
+    "NR": 0.5666558721934369,
+    "CR": 0.1000107944732297
+   },
+   "detail": {
+    "lower_quantile": "1/3",
+    "upper_quantile": "9/10"
+   }
+  },
+  "quantile_p50_p95": {
+   "beta": "81/562",
+   "alpha": "353/916",
+   "beta_float": 0.14412811387900357,
+   "alpha_float": 0.3853711790393013,
+   "method": "quantile",
+   "n_pairs": 18528,
+   "region_counts": {
+    "AR": 9264,
+    "NR": 8337,
+    "CR": 927
+   },
+   "region_fractions": {
+    "AR": 0.5,
+    "NR": 0.44996761658031087,
+    "CR": 0.050032383419689117
+   },
+   "detail": {
+    "lower_quantile": "1/2",
+    "upper_quantile": "19/20"
+   }
+  },
+  "dtrs_symmetric": {
+   "beta": "1/3",
+   "alpha": "2/3",
+   "beta_float": 0.3333333333333333,
+   "alpha_float": 0.6666666666666666,
+   "method": "dtrs",
+   "n_pairs": 18528,
+   "region_counts": {
+    "AR": 16243,
+    "NR": 2043,
+    "CR": 242
+   },
+   "region_fractions": {
+    "AR": 0.8766731433506045,
+    "NR": 0.11026554404145078,
+    "CR": 0.013061312607944733
+   },
+   "detail": {
+    "lambda": "CC=0,NC=2,AC=6,CA=6,NA=2,AA=0",
+    "note": "alpha,beta from Bayesian minimum-risk 3WD boundaries"
+   }
+  },
+  "dtrs_guarded": {
+   "beta": "1/2",
+   "alpha": "5/6",
+   "beta_float": 0.5,
+   "alpha_float": 0.8333333333333334,
+   "method": "dtrs",
+   "n_pairs": 18528,
+   "region_counts": {
+    "AR": 18212,
+    "NR": 312,
+    "CR": 4
+   },
+   "region_fractions": {
+    "AR": 0.9829447322970639,
+    "NR": 0.01683937823834197,
+    "CR": 0.0002158894645941278
+   },
+   "detail": {
+    "lambda": "CC=0,NC=1,AC=4,CA=8,NA=3,AA=0",
+    "note": "alpha,beta from Bayesian minimum-risk 3WD boundaries"
+   }
+  }
+ },
+ "uci_1984_mask": {
+  "n_pairs_used": 93939,
+  "degree_stats": {
+   "mean": 0.4817,
+   "median": 0.4667,
+   "p10": 0.1333,
+   "p90": 0.8333,
+   "max": 1.0
+  },
+  "quantile_p33_p90": {
+   "beta": "1/3",
+   "alpha": "5/6",
+   "beta_float": 0.3333333333333333,
+   "alpha_float": 0.8333333333333334,
+   "method": "quantile",
+   "n_pairs": 93939,
+   "region_counts": {
+    "AR": 33205,
+    "NR": 51212,
+    "CR": 9522
+   },
+   "region_fractions": {
+    "AR": 0.3534740629557479,
+    "NR": 0.5451622861644259,
+    "CR": 0.10136365087982627
+   },
+   "detail": {
+    "lower_quantile": "1/3",
+    "upper_quantile": "9/10"
+   }
+  },
+  "quantile_p50_p95": {
+   "beta": "7/15",
+   "alpha": "7/8",
+   "beta_float": 0.4666666666666667,
+   "alpha_float": 0.875,
+   "method": "quantile",
+   "n_pairs": 93939,
+   "region_counts": {
+    "AR": 47772,
+    "NR": 40956,
+    "CR": 5211
+   },
+   "region_fractions": {
+    "AR": 0.5085427777600358,
+    "NR": 0.4359850541308722,
+    "CR": 0.05547216810909207
+   },
+   "detail": {
+    "lower_quantile": "1/2",
+    "upper_quantile": "19/20"
+   }
+  },
+  "dtrs_symmetric": {
+   "beta": "1/3",
+   "alpha": "2/3",
+   "beta_float": 0.3333333333333333,
+   "alpha_float": 0.6666666666666666,
+   "method": "dtrs",
+   "n_pairs": 93939,
+   "region_counts": {
+    "AR": 33205,
+    "NR": 32288,
+    "CR": 28446
+   },
+   "region_fractions": {
+    "AR": 0.3534740629557479,
+    "NR": 0.3437124091165544,
+    "CR": 0.3028135279276978
+   },
+   "detail": {
+    "lambda": "CC=0,NC=2,AC=6,CA=6,NA=2,AA=0",
+    "note": "alpha,beta from Bayesian minimum-risk 3WD boundaries"
+   }
+  },
+  "dtrs_guarded": {
+   "beta": "1/2",
+   "alpha": "5/6",
+   "beta_float": 0.5,
+   "alpha_float": 0.8333333333333334,
+   "method": "dtrs",
+   "n_pairs": 93939,
+   "region_counts": {
+    "AR": 51904,
+    "NR": 32513,
+    "CR": 9522
+   },
+   "region_fractions": {
+    "AR": 0.5525287686690299,
+    "NR": 0.3461075804511438,
+    "CR": 0.10136365087982627
+   },
+   "detail": {
+    "lambda": "CC=0,NC=1,AC=4,CA=8,NA=3,AA=0",
+    "note": "alpha,beta from Bayesian minimum-risk 3WD boundaries"
+   }
+  }
+ }
+}

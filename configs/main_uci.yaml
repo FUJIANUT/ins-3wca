@@ -1,0 +1,28 @@
+dataset: ../data/processed/uci_1984_mask
+beta: "1/4"
+alpha: "3/4"
+missing_policy: exclude
+
+pair_selection:
+  strategy: top_conflict
+  count: 20
+
+runs:
+  - solver: greedy
+    target: AR
+    operators: [mod, del]
+  - solver: grid-dp
+    target: NR
+    operators: [mod]
+    max_states: 100000
+  - solver: ilp
+    target: AR
+    operators: [mod, del]
+    time_limit: 60
+  - solver: ilp
+    target: NR
+    operators: [mod]
+    time_limit: 60
+
+output: ../results/main_uci
+

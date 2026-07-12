@@ -1,0 +1,1737 @@
+{
+ "unga": {
+  "thresholds": {
+   "beta": "13/174",
+   "alpha": "381/1106",
+   "beta_float": 0.07471264367816093,
+   "alpha_float": 0.3444846292947559,
+   "method": "quantile",
+   "n_pairs": 18528,
+   "region_counts": {
+    "AR": 6176,
+    "NR": 10499,
+    "CR": 1853
+   },
+   "region_fractions": {
+    "AR": 0.3333333333333333,
+    "NR": 0.5666558721934369,
+    "CR": 0.1000107944732297
+   },
+   "detail": {
+    "lower_quantile": "1/3",
+    "upper_quantile": "9/10"
+   }
+  },
+  "n_target_pairs": 15,
+  "solver_matrix": [
+   {
+    "agent_a": "TKM",
+    "agent_b": "USA",
+    "D0": 0.8514739229024944,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 343,
+     "Dpi": 0.07369614512471655,
+     "ms": 5.97
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 343,
+     "Dpi": 0.07369614512471655,
+     "ms": 18.4
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 224,
+     "Dpi": 0.3435374149659864,
+     "ms": 277.23
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 224,
+     "Dpi": 0.3435374149659864,
+     "ms": 47.16
+    }
+   },
+   {
+    "agent_a": "SYR",
+    "agent_b": "USA",
+    "D0": 0.8471153846153846,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 405,
+     "Dpi": 0.07403846153846154,
+     "ms": 7.19
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 405,
+     "Dpi": 0.07403846153846154,
+     "ms": 23.31
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 262,
+     "Dpi": 0.34326923076923077,
+     "ms": 383.81
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 262,
+     "Dpi": 0.34423076923076923,
+     "ms": 61.31
+    }
+   },
+   {
+    "agent_a": "NIC",
+    "agent_b": "USA",
+    "D0": 0.8397435897435898,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 478,
+     "Dpi": 0.07371794871794872,
+     "ms": 8.28
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 478,
+     "Dpi": 0.07371794871794872,
+     "ms": 27.03
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 310,
+     "Dpi": 0.34294871794871795,
+     "ms": 565.11
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 310,
+     "Dpi": 0.34294871794871795,
+     "ms": 87.81
+    }
+   },
+   {
+    "agent_a": "IRN",
+    "agent_b": "USA",
+    "D0": 0.8365853658536585,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 471,
+     "Dpi": 0.07398373983739838,
+     "ms": 16.89
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 471,
+     "Dpi": 0.07398373983739838,
+     "ms": 27.1
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 303,
+     "Dpi": 0.3439024390243902,
+     "ms": 539.95
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 303,
+     "Dpi": 0.3439024390243902,
+     "ms": 81.59
+    }
+   },
+   {
+    "agent_a": "ISR",
+    "agent_b": "TKM",
+    "D0": 0.8198529411764706,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 305,
+     "Dpi": 0.07230392156862746,
+     "ms": 5.42
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 305,
+     "Dpi": 0.07230392156862746,
+     "ms": 15.7
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 194,
+     "Dpi": 0.3443627450980392,
+     "ms": 266.83
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 194,
+     "Dpi": 0.3443627450980392,
+     "ms": 42.48
+    }
+   },
+   {
+    "agent_a": "USA",
+    "agent_b": "VEN",
+    "D0": 0.8184357541899442,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 135,
+     "Dpi": 0.07262569832402235,
+     "ms": 2.49
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 135,
+     "Dpi": 0.07262569832402235,
+     "ms": 6.19
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 85,
+     "Dpi": 0.3435754189944134,
+     "ms": 42.34
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 85,
+     "Dpi": 0.3435754189944134,
+     "ms": 12.48
+    }
+   },
+   {
+    "agent_a": "ISR",
+    "agent_b": "SYR",
+    "D0": 0.8178053830227743,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 371,
+     "Dpi": 0.07453416149068323,
+     "ms": 6.75
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 371,
+     "Dpi": 0.07453416149068323,
+     "ms": 21.24
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 229,
+     "Dpi": 0.34368530020703936,
+     "ms": 324.15
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 229,
+     "Dpi": 0.34368530020703936,
+     "ms": 54.0
+    }
+   },
+   {
+    "agent_a": "PRK",
+    "agent_b": "USA",
+    "D0": 0.8157894736842105,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 444,
+     "Dpi": 0.07470288624787776,
+     "ms": 8.06
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 444,
+     "Dpi": 0.07470288624787776,
+     "ms": 33.96
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 278,
+     "Dpi": 0.3438030560271647,
+     "ms": 515.1
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 278,
+     "Dpi": 0.3438030560271647,
+     "ms": 75.79
+    }
+   },
+   {
+    "agent_a": "CUB",
+    "agent_b": "USA",
+    "D0": 0.8141524105754276,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 476,
+     "Dpi": 0.07465007776049767,
+     "ms": 8.57
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 476,
+     "Dpi": 0.07465007776049767,
+     "ms": 27.87
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 302,
+     "Dpi": 0.34447900466562986,
+     "ms": 604.55
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 302,
+     "Dpi": 0.34447900466562986,
+     "ms": 90.05
+    }
+   },
+   {
+    "agent_a": "AZE",
+    "agent_b": "USA",
+    "D0": 0.8095684803001876,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 392,
+     "Dpi": 0.07410881801125703,
+     "ms": 7.09
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 392,
+     "Dpi": 0.07410881801125703,
+     "ms": 22.21
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 248,
+     "Dpi": 0.3442776735459662,
+     "ms": 413.77
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 248,
+     "Dpi": 0.3442776735459662,
+     "ms": 64.36
+    }
+   },
+   {
+    "agent_a": "SOM",
+    "agent_b": "USA",
+    "D0": 0.803763440860215,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 272,
+     "Dpi": 0.07258064516129033,
+     "ms": 13.95
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 272,
+     "Dpi": 0.07258064516129033,
+     "ms": 13.59
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 171,
+     "Dpi": 0.34408602150537637,
+     "ms": 194.76
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 171,
+     "Dpi": 0.34408602150537637,
+     "ms": 35.69
+    }
+   },
+   {
+    "agent_a": "USA",
+    "agent_b": "ZWE",
+    "D0": 0.7962662337662337,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 445,
+     "Dpi": 0.07386363636363637,
+     "ms": 8.5
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 445,
+     "Dpi": 0.07386363636363637,
+     "ms": 25.81
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 279,
+     "Dpi": 0.34334415584415584,
+     "ms": 547.52
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 279,
+     "Dpi": 0.34415584415584416,
+     "ms": 93.06
+    }
+   },
+   {
+    "agent_a": "ERI",
+    "agent_b": "USA",
+    "D0": 0.7940705128205128,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 449,
+     "Dpi": 0.07451923076923077,
+     "ms": 8.31
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 449,
+     "Dpi": 0.07451923076923077,
+     "ms": 25.25
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 281,
+     "Dpi": 0.34375,
+     "ms": 568.8
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 281,
+     "Dpi": 0.34375,
+     "ms": 86.9
+    }
+   },
+   {
+    "agent_a": "BFA",
+    "agent_b": "USA",
+    "D0": 0.7930056710775047,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 380,
+     "Dpi": 0.07466918714555766,
+     "ms": 6.95
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 380,
+     "Dpi": 0.07466918714555766,
+     "ms": 30.83
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 238,
+     "Dpi": 0.3431001890359168,
+     "ms": 396.52
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 238,
+     "Dpi": 0.3431001890359168,
+     "ms": 63.93
+    }
+   },
+   {
+    "agent_a": "IRN",
+    "agent_b": "ISR",
+    "D0": 0.7921847246891652,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 408,
+     "Dpi": 0.07460035523978685,
+     "ms": 7.73
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 408,
+     "Dpi": 0.07460035523978685,
+     "ms": 24.84
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 253,
+     "Dpi": 0.3428063943161634,
+     "ms": 473.07
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 253,
+     "Dpi": 0.3428063943161634,
+     "ms": 68.38
+    }
+   }
+  ],
+  "matrix_agreement": {
+   "checked_ar": 15,
+   "agree_ar": 15,
+   "checked_nr": 15,
+   "agree_nr": 15
+  },
+  "p8": [
+   {
+    "agent_a": "TKM",
+    "agent_b": "USA",
+    "D0": 0.8514739229024944,
+    "sweep": [
+     {
+      "eps": "0",
+      "status": "OPTIMAL",
+      "obj": 343,
+      "Dpi": 0.07369614512471655
+     },
+     {
+      "eps": "1/50",
+      "status": "OPTIMAL",
+      "obj": 352,
+      "Dpi": 0.05328798185941043
+     },
+     {
+      "eps": "1/20",
+      "status": "OPTIMAL",
+      "obj": 373,
+      "Dpi": 0.023809523809523808
+     },
+     {
+      "eps": "1/10",
+      "status": "OPTIMAL",
+      "obj": 394,
+      "Dpi": 0.0
+     }
+    ]
+   },
+   {
+    "agent_a": "SYR",
+    "agent_b": "USA",
+    "D0": 0.8471153846153846,
+    "sweep": [
+     {
+      "eps": "0",
+      "status": "OPTIMAL",
+      "obj": 405,
+      "Dpi": 0.07403846153846154
+     },
+     {
+      "eps": "1/50",
+      "status": "OPTIMAL",
+      "obj": 426,
+      "Dpi": 0.05384615384615385
+     },
+     {
+      "eps": "1/20",
+      "status": "OPTIMAL",
+      "obj": 457,
+      "Dpi": 0.02403846153846154
+     },
+     {
+      "eps": "1/10",
+      "status": "OPTIMAL",
+      "obj": 482,
+      "Dpi": 0.0
+     }
+    ]
+   },
+   {
+    "agent_a": "NIC",
+    "agent_b": "USA",
+    "D0": 0.8397435897435898,
+    "sweep": [
+     {
+      "eps": "0",
+      "status": "OPTIMAL",
+      "obj": 478,
+      "Dpi": 0.07371794871794872
+     },
+     {
+      "eps": "1/50",
+      "status": "OPTIMAL",
+      "obj": 499,
+      "Dpi": 0.05448717948717949
+     },
+     {
+      "eps": "1/20",
+      "status": "OPTIMAL",
+      "obj": 537,
+      "Dpi": 0.02403846153846154
+     },
+     {
+      "eps": "1/10",
+      "status": "OPTIMAL",
+      "obj": 567,
+      "Dpi": 0.0
+     }
+    ]
+   },
+   {
+    "agent_a": "IRN",
+    "agent_b": "USA",
+    "D0": 0.8365853658536585,
+    "sweep": [
+     {
+      "eps": "0",
+      "status": "OPTIMAL",
+      "obj": 471,
+      "Dpi": 0.07398373983739838
+     },
+     {
+      "eps": "1/50",
+      "status": "OPTIMAL",
+      "obj": 495,
+      "Dpi": 0.05447154471544716
+     },
+     {
+      "eps": "1/20",
+      "status": "OPTIMAL",
+      "obj": 532,
+      "Dpi": 0.024390243902439025
+     },
+     {
+      "eps": "1/10",
+      "status": "OPTIMAL",
+      "obj": 562,
+      "Dpi": 0.0
+     }
+    ]
+   },
+   {
+    "agent_a": "ISR",
+    "agent_b": "TKM",
+    "D0": 0.8198529411764706,
+    "sweep": [
+     {
+      "eps": "0",
+      "status": "OPTIMAL",
+      "obj": 305,
+      "Dpi": 0.07230392156862746
+     },
+     {
+      "eps": "1/50",
+      "status": "OPTIMAL",
+      "obj": 317,
+      "Dpi": 0.05392156862745098
+     },
+     {
+      "eps": "1/20",
+      "status": "OPTIMAL",
+      "obj": 341,
+      "Dpi": 0.024509803921568627
+     },
+     {
+      "eps": "1/10",
+      "status": "OPTIMAL",
+      "obj": 361,
+      "Dpi": 0.0
+     }
+    ]
+   }
+  ],
+  "p8_summary": {
+   "monotone_violations": 0
+  },
+  "sensitivity": {
+   "agent_a": "TKM",
+   "agent_b": "USA",
+   "D0": 0.8514739229024944,
+   "grid": [
+    {
+     "beta": "1/10",
+     "alpha": "1/3",
+     "AR_obj": 332,
+     "AR_status": "OPTIMAL",
+     "NR_obj": 229,
+     "NR_status": "OPTIMAL"
+    },
+    {
+     "beta": "1/10",
+     "alpha": "1/2",
+     "AR_obj": 332,
+     "AR_status": "OPTIMAL",
+     "NR_obj": 156,
+     "NR_status": "OPTIMAL"
+    },
+    {
+     "beta": "1/10",
+     "alpha": "2/3",
+     "AR_obj": 332,
+     "AR_status": "OPTIMAL",
+     "NR_obj": 82,
+     "NR_status": "OPTIMAL"
+    },
+    {
+     "beta": "1/5",
+     "alpha": "1/3",
+     "AR_obj": 288,
+     "AR_status": "OPTIMAL",
+     "NR_obj": 229,
+     "NR_status": "OPTIMAL"
+    },
+    {
+     "beta": "1/5",
+     "alpha": "1/2",
+     "AR_obj": 288,
+     "AR_status": "OPTIMAL",
+     "NR_obj": 156,
+     "NR_status": "OPTIMAL"
+    },
+    {
+     "beta": "1/5",
+     "alpha": "2/3",
+     "AR_obj": 288,
+     "AR_status": "OPTIMAL",
+     "NR_obj": 82,
+     "NR_status": "OPTIMAL"
+    },
+    {
+     "beta": "1/3",
+     "alpha": "1/2",
+     "AR_obj": 229,
+     "AR_status": "OPTIMAL",
+     "NR_obj": 156,
+     "NR_status": "OPTIMAL"
+    },
+    {
+     "beta": "1/3",
+     "alpha": "2/3",
+     "AR_obj": 229,
+     "AR_status": "OPTIMAL",
+     "NR_obj": 82,
+     "NR_status": "OPTIMAL"
+    }
+   ]
+  },
+  "safe_full_table": {
+   "n_bystanders": 18528,
+   "operators": "mod",
+   "rows": [
+    {
+     "agent_a": "NIC",
+     "agent_b": "USA",
+     "beta": "1/4",
+     "alpha": "3/4",
+     "target": "NR",
+     "status": "OPTIMAL",
+     "obj": 49,
+     "D0": 0.8246,
+     "Dpi": 0.7492,
+     "audited": 18527,
+     "wall_s": 9.27
+    },
+    {
+     "agent_a": "NIC",
+     "agent_b": "USA",
+     "beta": "1/2",
+     "alpha": "3/4",
+     "target": "AR",
+     "status": "OPTIMAL",
+     "obj": 211,
+     "D0": 0.8246,
+     "Dpi": 0.5,
+     "audited": 18527,
+     "wall_s": 10.31
+    },
+    {
+     "agent_a": "NIC",
+     "agent_b": "USA",
+     "beta": "1/4",
+     "alpha": "3/4",
+     "target": "AR",
+     "status": "INFEASIBLE",
+     "obj": null,
+     "D0": 0.8246,
+     "Dpi": null,
+     "audited": 18527,
+     "wall_s": 8.79
+    },
+    {
+     "agent_a": "IRN",
+     "agent_b": "USA",
+     "beta": "1/4",
+     "alpha": "3/4",
+     "target": "NR",
+     "status": "OPTIMAL",
+     "obj": 43,
+     "D0": 0.8146,
+     "Dpi": 0.7492,
+     "audited": 18527,
+     "wall_s": 9.23
+    },
+    {
+     "agent_a": "IRN",
+     "agent_b": "USA",
+     "beta": "1/2",
+     "alpha": "3/4",
+     "target": "AR",
+     "status": "OPTIMAL",
+     "obj": 205,
+     "D0": 0.8146,
+     "Dpi": 0.5,
+     "audited": 18527,
+     "wall_s": 10.98
+    },
+    {
+     "agent_a": "IRN",
+     "agent_b": "USA",
+     "beta": "1/4",
+     "alpha": "3/4",
+     "target": "AR",
+     "status": "INFEASIBLE",
+     "obj": null,
+     "D0": 0.8146,
+     "Dpi": null,
+     "audited": 18527,
+     "wall_s": 8.98
+    },
+    {
+     "agent_a": "CUB",
+     "agent_b": "USA",
+     "beta": "1/4",
+     "alpha": "3/4",
+     "target": "NR",
+     "status": "OPTIMAL",
+     "obj": 40,
+     "D0": 0.8108,
+     "Dpi": 0.7492,
+     "audited": 18527,
+     "wall_s": 9.29
+    },
+    {
+     "agent_a": "CUB",
+     "agent_b": "USA",
+     "beta": "1/2",
+     "alpha": "3/4",
+     "target": "AR",
+     "status": "OPTIMAL",
+     "obj": 202,
+     "D0": 0.8108,
+     "Dpi": 0.5,
+     "audited": 18527,
+     "wall_s": 11.18
+    },
+    {
+     "agent_a": "CUB",
+     "agent_b": "USA",
+     "beta": "1/4",
+     "alpha": "3/4",
+     "target": "AR",
+     "status": "INFEASIBLE",
+     "obj": null,
+     "D0": 0.8108,
+     "Dpi": null,
+     "audited": 18527,
+     "wall_s": 8.77
+    },
+    {
+     "agent_a": "DZA",
+     "agent_b": "USA",
+     "beta": "1/4",
+     "alpha": "3/4",
+     "target": "NR",
+     "status": "OPTIMAL",
+     "obj": 25,
+     "D0": 0.7869,
+     "Dpi": 0.7485,
+     "audited": 18527,
+     "wall_s": 9.26
+    },
+    {
+     "agent_a": "DZA",
+     "agent_b": "USA",
+     "beta": "1/2",
+     "alpha": "3/4",
+     "target": "AR",
+     "status": "OPTIMAL",
+     "obj": 187,
+     "D0": 0.7869,
+     "Dpi": 0.4992,
+     "audited": 18527,
+     "wall_s": 11.07
+    },
+    {
+     "agent_a": "DZA",
+     "agent_b": "USA",
+     "beta": "1/4",
+     "alpha": "3/4",
+     "target": "AR",
+     "status": "INFEASIBLE",
+     "obj": null,
+     "D0": 0.7869,
+     "Dpi": null,
+     "audited": 18527,
+     "wall_s": 8.96
+    },
+    {
+     "agent_a": "CHN",
+     "agent_b": "USA",
+     "beta": "1/4",
+     "alpha": "3/4",
+     "target": "NR",
+     "status": "OPTIMAL",
+     "obj": 23,
+     "D0": 0.7838,
+     "Dpi": 0.7492,
+     "audited": 18527,
+     "wall_s": 9.07
+    },
+    {
+     "agent_a": "CHN",
+     "agent_b": "USA",
+     "beta": "1/2",
+     "alpha": "3/4",
+     "target": "AR",
+     "status": "OPTIMAL",
+     "obj": 185,
+     "D0": 0.7838,
+     "Dpi": 0.4992,
+     "audited": 18527,
+     "wall_s": 10.88
+    },
+    {
+     "agent_a": "CHN",
+     "agent_b": "USA",
+     "beta": "1/4",
+     "alpha": "3/4",
+     "target": "AR",
+     "status": "INFEASIBLE",
+     "obj": null,
+     "D0": 0.7838,
+     "Dpi": null,
+     "audited": 18527,
+     "wall_s": 8.75
+    }
+   ]
+  }
+ },
+ "uci": {
+  "thresholds": {
+   "beta": "1/3",
+   "alpha": "5/6",
+   "beta_float": 0.3333333333333333,
+   "alpha_float": 0.8333333333333334,
+   "method": "quantile",
+   "n_pairs": 93939,
+   "region_counts": {
+    "AR": 33205,
+    "NR": 51212,
+    "CR": 9522
+   },
+   "region_fractions": {
+    "AR": 0.3534740629557479,
+    "NR": 0.5451622861644259,
+    "CR": 0.10136365087982627
+   },
+   "detail": {
+    "lower_quantile": "1/3",
+    "upper_quantile": "9/10"
+   }
+  },
+  "n_target_pairs": 15,
+  "solver_matrix": [
+   {
+    "agent_a": "rep_0001",
+    "agent_b": "rep_0025",
+    "D0": 1.0,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 10,
+     "Dpi": 0.2857142857142857,
+     "ms": 0.24
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 10,
+     "Dpi": 0.2857142857142857,
+     "ms": 3.9
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 3,
+     "Dpi": 0.7857142857142857,
+     "ms": 0.41
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 3,
+     "Dpi": 0.8214285714285714,
+     "ms": 3.91
+    }
+   },
+   {
+    "agent_a": "rep_0001",
+    "agent_b": "rep_0109",
+    "D0": 1.0,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 9,
+     "Dpi": 0.3076923076923077,
+     "ms": 0.21
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 9,
+     "Dpi": 0.3076923076923077,
+     "ms": 3.7
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 3,
+     "Dpi": 0.7692307692307693,
+     "ms": 0.34
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 3,
+     "Dpi": 0.8076923076923077,
+     "ms": 3.9
+    }
+   },
+   {
+    "agent_a": "rep_0001",
+    "agent_b": "rep_0110",
+    "D0": 1.0,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 9,
+     "Dpi": 0.3076923076923077,
+     "ms": 0.2
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 9,
+     "Dpi": 0.3076923076923077,
+     "ms": 3.77
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 3,
+     "Dpi": 0.7692307692307693,
+     "ms": 0.34
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 3,
+     "Dpi": 0.8076923076923077,
+     "ms": 3.79
+    }
+   },
+   {
+    "agent_a": "rep_0001",
+    "agent_b": "rep_0115",
+    "D0": 1.0,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 9,
+     "Dpi": 0.3076923076923077,
+     "ms": 0.2
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 9,
+     "Dpi": 0.3076923076923077,
+     "ms": 3.64
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 3,
+     "Dpi": 0.7692307692307693,
+     "ms": 0.34
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 3,
+     "Dpi": 0.8076923076923077,
+     "ms": 3.78
+    }
+   },
+   {
+    "agent_a": "rep_0001",
+    "agent_b": "rep_0130",
+    "D0": 1.0,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 5,
+     "Dpi": 0.2857142857142857,
+     "ms": 0.12
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 5,
+     "Dpi": 0.2857142857142857,
+     "ms": 5.52
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 2,
+     "Dpi": 0.7142857142857143,
+     "ms": 0.15
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 2,
+     "Dpi": 0.7857142857142857,
+     "ms": 2.46
+    }
+   },
+   {
+    "agent_a": "rep_0001",
+    "agent_b": "rep_0131",
+    "D0": 1.0,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 8,
+     "Dpi": 0.2727272727272727,
+     "ms": 0.18
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 8,
+     "Dpi": 0.2727272727272727,
+     "ms": 4.22
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 2,
+     "Dpi": 0.8181818181818182,
+     "ms": 0.26
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 2,
+     "Dpi": 0.8181818181818182,
+     "ms": 3.91
+    }
+   },
+   {
+    "agent_a": "rep_0001",
+    "agent_b": "rep_0171",
+    "D0": 1.0,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 8,
+     "Dpi": 0.3333333333333333,
+     "ms": 0.19
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 8,
+     "Dpi": 0.3333333333333333,
+     "ms": 4.05
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 3,
+     "Dpi": 0.75,
+     "ms": 0.3
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 3,
+     "Dpi": 0.7916666666666666,
+     "ms": 3.79
+    }
+   },
+   {
+    "agent_a": "rep_0001",
+    "agent_b": "rep_0175",
+    "D0": 1.0,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 9,
+     "Dpi": 0.3076923076923077,
+     "ms": 0.2
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 9,
+     "Dpi": 0.3076923076923077,
+     "ms": 3.56
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 3,
+     "Dpi": 0.7692307692307693,
+     "ms": 0.34
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 3,
+     "Dpi": 0.8076923076923077,
+     "ms": 3.71
+    }
+   },
+   {
+    "agent_a": "rep_0001",
+    "agent_b": "rep_0181",
+    "D0": 1.0,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 7,
+     "Dpi": 0.3,
+     "ms": 0.16
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 7,
+     "Dpi": 0.3,
+     "ms": 4.09
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 2,
+     "Dpi": 0.8,
+     "ms": 0.23
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 2,
+     "Dpi": 0.8,
+     "ms": 3.92
+    }
+   },
+   {
+    "agent_a": "rep_0001",
+    "agent_b": "rep_0184",
+    "D0": 1.0,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 1,
+     "Dpi": 0.0,
+     "ms": 0.04
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 1,
+     "Dpi": 0.0,
+     "ms": 0.5
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 1,
+     "Dpi": 0.5,
+     "ms": 0.03
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 1,
+     "Dpi": 0.5,
+     "ms": 0.5
+    }
+   },
+   {
+    "agent_a": "rep_0001",
+    "agent_b": "rep_0188",
+    "D0": 1.0,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 10,
+     "Dpi": 0.2857142857142857,
+     "ms": 0.22
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 10,
+     "Dpi": 0.2857142857142857,
+     "ms": 3.57
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 3,
+     "Dpi": 0.7857142857142857,
+     "ms": 0.38
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 3,
+     "Dpi": 0.8214285714285714,
+     "ms": 3.73
+    }
+   },
+   {
+    "agent_a": "rep_0001",
+    "agent_b": "rep_0219",
+    "D0": 1.0,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 9,
+     "Dpi": 0.3076923076923077,
+     "ms": 0.21
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 9,
+     "Dpi": 0.3076923076923077,
+     "ms": 3.76
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 3,
+     "Dpi": 0.7692307692307693,
+     "ms": 0.34
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 3,
+     "Dpi": 0.8076923076923077,
+     "ms": 3.72
+    }
+   },
+   {
+    "agent_a": "rep_0001",
+    "agent_b": "rep_0223",
+    "D0": 1.0,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 10,
+     "Dpi": 0.2857142857142857,
+     "ms": 0.22
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 10,
+     "Dpi": 0.2857142857142857,
+     "ms": 3.6
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 3,
+     "Dpi": 0.7857142857142857,
+     "ms": 0.39
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 3,
+     "Dpi": 0.8214285714285714,
+     "ms": 3.82
+    }
+   },
+   {
+    "agent_a": "rep_0001",
+    "agent_b": "rep_0262",
+    "D0": 1.0,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 7,
+     "Dpi": 0.3,
+     "ms": 0.18
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 7,
+     "Dpi": 0.3,
+     "ms": 4.25
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 2,
+     "Dpi": 0.8,
+     "ms": 0.24
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 2,
+     "Dpi": 0.8,
+     "ms": 3.99
+    }
+   },
+   {
+    "agent_a": "rep_0001",
+    "agent_b": "rep_0264",
+    "D0": 1.0,
+    "greedy_AR": {
+     "status": "OPTIMAL",
+     "obj": 10,
+     "Dpi": 0.2857142857142857,
+     "ms": 0.23
+    },
+    "ilp_AR": {
+     "status": "OPTIMAL",
+     "obj": 10,
+     "Dpi": 0.2857142857142857,
+     "ms": 3.73
+    },
+    "griddp_NR": {
+     "status": "OPTIMAL",
+     "obj": 3,
+     "Dpi": 0.7857142857142857,
+     "ms": 0.39
+    },
+    "ilp_NR": {
+     "status": "OPTIMAL",
+     "obj": 3,
+     "Dpi": 0.8214285714285714,
+     "ms": 3.8
+    }
+   }
+  ],
+  "matrix_agreement": {
+   "checked_ar": 15,
+   "agree_ar": 15,
+   "checked_nr": 15,
+   "agree_nr": 15
+  },
+  "p8": [
+   {
+    "agent_a": "rep_0001",
+    "agent_b": "rep_0025",
+    "D0": 1.0,
+    "sweep": [
+     {
+      "eps": "0",
+      "status": "OPTIMAL",
+      "obj": 10,
+      "Dpi": 0.2857142857142857
+     },
+     {
+      "eps": "1/50",
+      "status": "OPTIMAL",
+      "obj": 10,
+      "Dpi": 0.2857142857142857
+     },
+     {
+      "eps": "1/20",
+      "status": "OPTIMAL",
+      "obj": 11,
+      "Dpi": 0.21428571428571427
+     },
+     {
+      "eps": "1/10",
+      "status": "OPTIMAL",
+      "obj": 11,
+      "Dpi": 0.21428571428571427
+     }
+    ]
+   },
+   {
+    "agent_a": "rep_0001",
+    "agent_b": "rep_0109",
+    "D0": 1.0,
+    "sweep": [
+     {
+      "eps": "0",
+      "status": "OPTIMAL",
+      "obj": 9,
+      "Dpi": 0.3076923076923077
+     },
+     {
+      "eps": "1/50",
+      "status": "OPTIMAL",
+      "obj": 9,
+      "Dpi": 0.3076923076923077
+     },
+     {
+      "eps": "1/20",
+      "status": "OPTIMAL",
+      "obj": 10,
+      "Dpi": 0.23076923076923078
+     },
+     {
+      "eps": "1/10",
+      "status": "OPTIMAL",
+      "obj": 10,
+      "Dpi": 0.23076923076923078
+     }
+    ]
+   },
+   {
+    "agent_a": "rep_0001",
+    "agent_b": "rep_0110",
+    "D0": 1.0,
+    "sweep": [
+     {
+      "eps": "0",
+      "status": "OPTIMAL",
+      "obj": 9,
+      "Dpi": 0.3076923076923077
+     },
+     {
+      "eps": "1/50",
+      "status": "OPTIMAL",
+      "obj": 9,
+      "Dpi": 0.3076923076923077
+     },
+     {
+      "eps": "1/20",
+      "status": "OPTIMAL",
+      "obj": 10,
+      "Dpi": 0.23076923076923078
+     },
+     {
+      "eps": "1/10",
+      "status": "OPTIMAL",
+      "obj": 10,
+      "Dpi": 0.23076923076923078
+     }
+    ]
+   },
+   {
+    "agent_a": "rep_0001",
+    "agent_b": "rep_0115",
+    "D0": 1.0,
+    "sweep": [
+     {
+      "eps": "0",
+      "status": "OPTIMAL",
+      "obj": 9,
+      "Dpi": 0.3076923076923077
+     },
+     {
+      "eps": "1/50",
+      "status": "OPTIMAL",
+      "obj": 9,
+      "Dpi": 0.3076923076923077
+     },
+     {
+      "eps": "1/20",
+      "status": "OPTIMAL",
+      "obj": 10,
+      "Dpi": 0.23076923076923078
+     },
+     {
+      "eps": "1/10",
+      "status": "OPTIMAL",
+      "obj": 10,
+      "Dpi": 0.23076923076923078
+     }
+    ]
+   },
+   {
+    "agent_a": "rep_0001",
+    "agent_b": "rep_0130",
+    "D0": 1.0,
+    "sweep": [
+     {
+      "eps": "0",
+      "status": "OPTIMAL",
+      "obj": 5,
+      "Dpi": 0.2857142857142857
+     },
+     {
+      "eps": "1/50",
+      "status": "OPTIMAL",
+      "obj": 5,
+      "Dpi": 0.2857142857142857
+     },
+     {
+      "eps": "1/20",
+      "status": "OPTIMAL",
+      "obj": 6,
+      "Dpi": 0.14285714285714285
+     },
+     {
+      "eps": "1/10",
+      "status": "OPTIMAL",
+      "obj": 6,
+      "Dpi": 0.14285714285714285
+     }
+    ]
+   }
+  ],
+  "p8_summary": {
+   "monotone_violations": 0
+  },
+  "sensitivity": {
+   "agent_a": "rep_0001",
+   "agent_b": "rep_0025",
+   "D0": 1.0,
+   "grid": [
+    {
+     "beta": "1/10",
+     "alpha": "1/3",
+     "AR_obj": 13,
+     "AR_status": "OPTIMAL",
+     "NR_obj": 10,
+     "NR_status": "OPTIMAL"
+    },
+    {
+     "beta": "1/10",
+     "alpha": "1/2",
+     "AR_obj": 13,
+     "AR_status": "OPTIMAL",
+     "NR_obj": 8,
+     "NR_status": "OPTIMAL"
+    },
+    {
+     "beta": "1/10",
+     "alpha": "2/3",
+     "AR_obj": 13,
+     "AR_status": "OPTIMAL",
+     "NR_obj": 5,
+     "NR_status": "OPTIMAL"
+    },
+    {
+     "beta": "1/5",
+     "alpha": "1/3",
+     "AR_obj": 12,
+     "AR_status": "OPTIMAL",
+     "NR_obj": 10,
+     "NR_status": "OPTIMAL"
+    },
+    {
+     "beta": "1/5",
+     "alpha": "1/2",
+     "AR_obj": 12,
+     "AR_status": "OPTIMAL",
+     "NR_obj": 8,
+     "NR_status": "OPTIMAL"
+    },
+    {
+     "beta": "1/5",
+     "alpha": "2/3",
+     "AR_obj": 12,
+     "AR_status": "OPTIMAL",
+     "NR_obj": 5,
+     "NR_status": "OPTIMAL"
+    },
+    {
+     "beta": "1/3",
+     "alpha": "1/2",
+     "AR_obj": 10,
+     "AR_status": "OPTIMAL",
+     "NR_obj": 8,
+     "NR_status": "OPTIMAL"
+    },
+    {
+     "beta": "1/3",
+     "alpha": "2/3",
+     "AR_obj": 10,
+     "AR_status": "OPTIMAL",
+     "NR_obj": 5,
+     "NR_status": "OPTIMAL"
+    }
+   ]
+  },
+  "safe_full_table": {
+   "n_bystanders": 94395,
+   "operators": "mod",
+   "rows": [
+    {
+     "agent_a": "rep_0020",
+     "agent_b": "rep_0087",
+     "beta": "1/4",
+     "alpha": "3/4",
+     "target": "NR",
+     "status": "INFEASIBLE",
+     "obj": null,
+     "D0": 1.0,
+     "Dpi": null,
+     "audited": 94394,
+     "wall_s": 1.78
+    },
+    {
+     "agent_a": "rep_0020",
+     "agent_b": "rep_0087",
+     "beta": "1/4",
+     "alpha": "3/4",
+     "target": "AR",
+     "status": "INFEASIBLE",
+     "obj": null,
+     "D0": 1.0,
+     "Dpi": null,
+     "audited": 94394,
+     "wall_s": 1.76
+    },
+    {
+     "agent_a": "rep_0020",
+     "agent_b": "rep_0136",
+     "beta": "1/4",
+     "alpha": "3/4",
+     "target": "NR",
+     "status": "INFEASIBLE",
+     "obj": null,
+     "D0": 1.0,
+     "Dpi": null,
+     "audited": 94394,
+     "wall_s": 1.89
+    },
+    {
+     "agent_a": "rep_0020",
+     "agent_b": "rep_0136",
+     "beta": "1/4",
+     "alpha": "3/4",
+     "target": "AR",
+     "status": "INFEASIBLE",
+     "obj": null,
+     "D0": 1.0,
+     "Dpi": null,
+     "audited": 94394,
+     "wall_s": 1.76
+    },
+    {
+     "agent_a": "rep_0020",
+     "agent_b": "rep_0280",
+     "beta": "1/4",
+     "alpha": "3/4",
+     "target": "NR",
+     "status": "INFEASIBLE",
+     "obj": null,
+     "D0": 1.0,
+     "Dpi": null,
+     "audited": 94394,
+     "wall_s": 1.81
+    },
+    {
+     "agent_a": "rep_0020",
+     "agent_b": "rep_0280",
+     "beta": "1/4",
+     "alpha": "3/4",
+     "target": "AR",
+     "status": "INFEASIBLE",
+     "obj": null,
+     "D0": 1.0,
+     "Dpi": null,
+     "audited": 94394,
+     "wall_s": 1.81
+    },
+    {
+     "agent_a": "rep_0020",
+     "agent_b": "rep_0306",
+     "beta": "1/4",
+     "alpha": "3/4",
+     "target": "NR",
+     "status": "INFEASIBLE",
+     "obj": null,
+     "D0": 1.0,
+     "Dpi": null,
+     "audited": 94394,
+     "wall_s": 1.84
+    },
+    {
+     "agent_a": "rep_0020",
+     "agent_b": "rep_0306",
+     "beta": "1/4",
+     "alpha": "3/4",
+     "target": "AR",
+     "status": "INFEASIBLE",
+     "obj": null,
+     "D0": 1.0,
+     "Dpi": null,
+     "audited": 94394,
+     "wall_s": 1.84
+    },
+    {
+     "agent_a": "rep_0020",
+     "agent_b": "rep_0309",
+     "beta": "1/4",
+     "alpha": "3/4",
+     "target": "NR",
+     "status": "INFEASIBLE",
+     "obj": null,
+     "D0": 1.0,
+     "Dpi": null,
+     "audited": 94394,
+     "wall_s": 1.82
+    },
+    {
+     "agent_a": "rep_0020",
+     "agent_b": "rep_0309",
+     "beta": "1/4",
+     "alpha": "3/4",
+     "target": "AR",
+     "status": "INFEASIBLE",
+     "obj": null,
+     "D0": 1.0,
+     "Dpi": null,
+     "audited": 94394,
+     "wall_s": 1.8
+    }
+   ]
+  }
+ }
+}
