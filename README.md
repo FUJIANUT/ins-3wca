@@ -1,4 +1,4 @@
-# kbs-3wca — Minimal Counterfactual Issue Explanations for three-way conflict analysis
+# ins-3wca — Minimal Counterfactual Issue Explanations for three-way conflict analysis
 
 Research code for **Minimal Counterfactual Issue Explanations (MCIE)** in three-way
 conflict analysis.
